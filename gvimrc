@@ -17,6 +17,4 @@ if has('mac')
     set gfn=Consolas:h12
 elseif has('win32')
     set gfn=Consolas:h10:cANSI
-else
-    set gfn=DejaVu\ Sans\ Mono:h10
 endif
