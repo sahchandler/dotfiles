@@ -10,6 +10,9 @@ nnoremap <C-s> i
 set lines=54 columns=210
 
 set guioptions-=T
+
+"set statusline=%{fugitive#statusline()}
+
 if has('mac')
     set gfn=Consolas:h12
 elseif has('win32')
