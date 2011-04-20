@@ -12,7 +12,9 @@ set lines=54 columns=210
 set guioptions-=T
 
 if has('mac')
-    set gfn=Consolas:h12
+  set gfn=Consolas:h12
 elseif has('win32')
-    set gfn=Consolas:h10:cANSI
+  set gfn=Consolas:h10:cANSI
+else
+  set gfn=Terminus\ 10
 endif
