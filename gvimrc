@@ -10,9 +10,10 @@ nnoremap <C-s> i
 set lines=54 columns=210
 
 set guioptions-=T
+set guioptions=aeg
 
 if has('mac') || has('win32')
-  set gfn=Inconsolata:h10
+  set gfn=DejaVu\ Sans\ Mono:h10
 else
-  set gfn=Inconsolata\ 10
+  set gfn=DejaVu\ Sans\ Mono\ 10
 endif
