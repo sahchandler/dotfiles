@@ -10,7 +10,7 @@ nnoremap <C-s> i
 set lines=54 columns=210
 
 set guioptions-=T
-set guioptions=aeg
+set guioptions=aegm
 
 if has('mac') || has('win32')
   set gfn=DejaVu\ Sans\ Mono:h10
