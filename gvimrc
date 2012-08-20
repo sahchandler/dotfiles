@@ -12,7 +12,9 @@ set lines=54 columns=210
 set guioptions-=T
 set guioptions=aegm
 
-if has('mac') || has('win32')
+if has('mac')
+  set gfn=DejaVu\ Sans\ Mono:h12
+elseif has('win32')
   set gfn=DejaVu\ Sans\ Mono:h10
 else
   set gfn=DejaVu\ Sans\ Mono\ 10
